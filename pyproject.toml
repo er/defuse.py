@@ -34,3 +34,7 @@ docs = [
     "myst-parser>=3.0",
     "sphinx-autodoc-typehints>=2.0",
 ]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
