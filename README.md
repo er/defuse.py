@@ -1,6 +1,14 @@
 # defuse.py
 
+[![PyPI](https://img.shields.io/pypi/v/defuse-py.svg)](https://pypi.org/project/defuse-py/)
+[![Python](https://img.shields.io/pypi/pyversions/defuse-py.svg)](https://pypi.org/project/defuse-py/)
+[![Docs](https://readthedocs.org/projects/defuse-py/badge/?version=latest)](https://defuse-py.readthedocs.io/en/latest/)
+[![License](https://img.shields.io/pypi/l/defuse-py.svg)](LICENSE)
+
 An async Python wrapper for the [NEAR Intents 1Click Swap API](https://1click.chaindefuser.com).
+
+- **Docs:** https://defuse-py.readthedocs.io
+- **PyPI:** https://pypi.org/project/defuse-py/
 
 ```
 pip install defuse-py
@@ -91,6 +99,8 @@ client = IntentsClient(jwt_token="your-jwt-token")
 ```
 
 ## API reference
+
+Full API reference is on [Read the Docs](https://defuse-py.readthedocs.io/en/latest/).
 
 ### `IntentsClient`
 
