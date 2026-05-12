@@ -31,6 +31,10 @@ myst_enable_extensions = [
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
+suppress_warnings = [
+    "sphinx_autodoc_typehints.forward_reference",
+]
+
 html_theme = "furo"
 html_static_path = ["_static"]
 html_title = f"defuse-py {release}"
