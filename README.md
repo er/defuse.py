@@ -5,7 +5,7 @@
 [![Docs](https://readthedocs.org/projects/defuse-py/badge/?version=latest)](https://defuse-py.readthedocs.io/en/latest/)
 [![License](https://img.shields.io/pypi/l/defuse-py.svg)](LICENSE)
 
-An async Python wrapper for the [NEAR Intents 1Click Swap API](https://1click.chaindefuser.com).
+An async Python wrapper for the [NEAR Intents 1Click Swap API](https://docs.near-intents.org/integration/distribution-channels/1click-api/about-1click-api).
 
 - **Docs:** https://defuse-py.readthedocs.io
 - **PyPI:** https://pypi.org/project/defuse-py/
